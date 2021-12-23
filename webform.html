@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php include 'createde.php';?>
+    <title>Create DE </title>
+</head>
+<body>
+    <form action="/createde.php" method="post">  
+        <div class="container">  
+            <label>Subdoamin : </label>   
+            <input type="text" placeholder="Enter Subdoamin" name="subdomain" required>   
+            <label>Client ID : </label>   
+            <input type="text" placeholder="Enter ClientID" name="cliendID" required>  
+            <label>Password : </label>   
+            <input type="text" placeholder="Enter ClientSecret" name="clientsecret" required>  
+            <button type="submit">submit</button>   
+            
+        </div>   
+    </form>     
+</body>
+</html>
